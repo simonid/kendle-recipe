@@ -3,7 +3,7 @@
 
 from calibre.web.feeds.recipes import BasicNewsRecipe # 引入 Recipe 基础类
 
-class Wang_Yin_Blog(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
+class Blog(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
 
     #///////////////////
     # 设置电子书元数据
